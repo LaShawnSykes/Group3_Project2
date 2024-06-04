@@ -1,16 +1,50 @@
 # Mushroom Foraging: Feast or Fatal?
+(Insert Visual)
 
-## Overview
+## Abstract
+(Insert information)
+
+## Project Team
+- La Shawn Sykes
+- Aaron Cranor
+- Darcy DeBord
+- Stephen Martinez
+
+## Project Overview
 This comprehensive study aims to equip mushroom enthusiasts with the essential knowledge and skills required for safe and effective identification of edible and poisonous mushrooms. By understanding the key differences between these two categories, foragers can confidently navigate the fascinating world of fungi while ensuring their well-being. Additionally, we leverage machine learning techniques to aid in the identification process.
 
 ## Table of Contents
+THIS SECTION NEEDS UPDATE
 - Understanding Mushroom Identification
+- Machine Learning Techniques
 - Key Differences Between Edible and Poisonous Mushrooms
 - Common Edible Mushrooms
 - Essential Safety Tips
 - Machine Learning Techniques
 
-## Understanding Mushroom Identification
+## Data Composition and Details
+(Insert information)
+## Data Analysis
+(Insert information)
+### Data Collection
+(Insert information)
+### Data Cleanup
+(Insert information)
+
+## Machine Learning Techniques
+In addition to traditional identification methods, we employ machine learning techniques to aid in the process. These techniques can help classify mushrooms based on their visual characteristics and other relevant features.
+
+### K-Means Clustering
+[INSERT MODULE INFORMATION: Explanation of K-Means clustering and its application in mushroom identification, along with relevant code snippets or visualizations.]
+
+### Logistic Regression
+[INSERT MODULE INFORMATION: Explanation of Logistic Regression and its application in mushroom identification, along with relevant code snippets or visualizations.]
+
+### Random Forest
+[INSERT MODULE INFORMATION: Explanation of Random Forest and its application in mushroom identification, along with relevant code snippets or visualizations]
+
+## Study Observations
+### Understanding Mushroom Identification
 - **Recognizing Mushroom Morphology:** Familiarize yourself with the different parts of a mushroom, such as the cap, stem, hymenium, and veils. 
   ![Diagram of mushroom parts](INSERT VISUAL: Diagram of mushroom parts)
   ```python
@@ -68,19 +102,33 @@ Discard myths about color, animal safety, and cooking methods.
 ### Deal with Uncertain Varieties
 Follow the "when in doubt, throw it out" rule and consult multiple sources for identification confirmation.
 
-## Machine Learning Techniques
-In addition to traditional identification methods, we employ machine learning techniques to aid in the process. These techniques can help classify mushrooms based on their visual characteristics and other relevant features.
-
-### K-Means Clustering
-[INSERT MODULE INFORMATION: Explanation of K-Means clustering and its application in mushroom identification, along with relevant code snippets or visualizations.]
-
-### Logistic Regression
-[INSERT MODULE INFORMATION: Explanation of Logistic Regression and its application in mushroom identification, along with relevant code snippets or visualizations.]
-
-### Random Forest
-[INSERT MODULE INFORMATION: Explanation of Random Forest and its application in mushroom identification, along with relevant code snippets or visualizations]
-
+## Conclusion
+(Insert information)
 Remember, accurate identification is crucial for safe and enjoyable mushroom foraging. This guide serves as a starting point, but continued learning and cautious practice are essential for a rewarding experience in the wild.
+
+## Future Recommendations
+(Insert information)
+
+## References
+[1] - https://www.afdo.org/wp-content/uploads/2020/09/Basics-of-Wild-Harvested-Mushroom-Identification.pdf
+[2] - https://www.mushroom-appreciation.com/mushroom-identification.html
+[3] - https://mycologyst.art/identification/
+[4] - https://www.wildfooduk.com/articles/how-to-tell-the-difference-between-poisonous-and-edible-mushrooms/
+[5] - https://www.goodrx.com/well-being/diet-nutrition/poisonous-mushrooms-difference-between-edible
+[6] - https://u.osu.edu/browncounty/2019/04/24/wild-mushrooms-edible-or-poisonous/
+[7] - https://www.realmushrooms.com/mushroom-anatomy-parts/
+[8] - https://grocycle.com/parts-of-a-mushroom/
+[9] - https://nublumemushroom.com/blogs/blogs/the-many-parts-of-a-mushroom-a-comprehensive-guide
+[10] - https://mycologyst.art/identification/where-to-find-mushrooms/
+[11] - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2268836/
+[12] - https://www.naturejournalingweek.com/blogs/nature-journaling-fungi
+[13] - https://mycologyst.art/identification/mushroom-morphology/
+[14] - https://www.canr.msu.edu/news/identifying_mushrooms_there_is_more_to_it_than_you_might_realize
+[16] - https://www.wildfooduk.com/articles/how-to-tell-the-difference-between-poisonous-and-edible-mushrooms/
+[17] - https://www.quora.com/How-do-I-distinguish-wild-mushrooms-that-are-edible-to-those-that-are-toxic-to-man
+
+## Code Availability
+(Insert information)
 
 ## Contributing
 Contributions to this guide are welcome! If you have suggestions, corrections, or additional information to share, please submit a pull request or open an issue.
