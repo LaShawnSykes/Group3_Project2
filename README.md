@@ -16,13 +16,19 @@ Ingestion of wild and potentially toxic mushrooms is a prevalent issue in the Un
 This comprehensive study aims to equip mushroom enthusiasts with the essential knowledge and skills required for safe and effective identification of edible and poisonous mushrooms. By understanding the key differences between these two categories, foragers can confidently navigate the fascinating world of fungi while ensuring their well-being. Additionally, we leverage machine learning techniques to aid in the identification process.
 
 ## Table of Contents
-THIS SECTION NEEDS UPDATE
-- Understanding Mushroom Identification
-- Machine Learning Techniques
-- Key Differences Between Edible and Poisonous Mushrooms
-- Common Edible Mushrooms
-- Essential Safety Tips
-- Machine Learning Techniques
+## Table of Contents
+1. [Understanding Mushroom Identification](#understanding-mushroom-identification)
+2. [Machine Learning Techniques](#machine-learning-techniques)
+3. [Key Differences Between Edible and Poisonous Mushrooms](#key-differences-between-edible-and-poisonous-mushrooms)
+4. [Common Edible Mushrooms](#common-edible-mushrooms)
+5. [Essential Safety Tips](#essential-safety-tips)
+6. [Data Composition and Details](#data-composition-and-details)
+7. [Study Observations](#study-observations)
+8. [Future Recommendations](#future-recommendations)
+9. [Conclusion](#conclusion)
+10. [References](#references)
+11. [Code Availability](#code-availability)
+12. [MIT License](#mit-license)
 
 ## Data Composition and Details
 Our investigation aimed at identifying an appropriate dataset for the assignment led us to a CSV file derived from a study available in the University of California Irvine Machine Learning Repository. This dataset includes various features of mushrooms, facilitating the determination of their edibility status (edible or poisonous).
@@ -38,67 +44,33 @@ During our data exploration phase, we identified that the 'Cap Shape' column con
 Given the categorical nature of the variables in our dataset, we employed a one-hot encoding technique. This method transformed the categorical data into a series of binary columns, facilitating the effective training of our models.
 
 ## Machine Learning Techniques
-In addition to traditional identification methods, we employ machine learning techniques to aid in the process. These techniques can help classify mushrooms based on their visual characteristics and other relevant features. The models used are K-Means Clustering, Logistic Regression,Random Forest, and Support Vector Machine.
+When it comes to identifying mushrooms, we can used a variety of machine learning algorithms to classify them based on their features. Here's how KMeans, Logistic Regression, Support Vector Classifier, and Random Forest were applied in mushroom identification:
 
-### K-Means Clustering
-[INSERT MODULE INFORMATION: Explanation of K-Means clustering and its application in mushroom identification, along with relevant code snippets or visualizations.]
+KMeans
+We use KMeans, an unsupervised machine learning algorithm, to cluster mushrooms into groups based on their features. For example, we cluster mushrooms into categories such as edible and poisonous based on their characteristics. By identifying patterns within the data, KMeans helps us classify mushrooms into distinct groups.
 
-### Logistic Regression
-[INSERT MODULE INFORMATION: Explanation of Logistic Regression and its application in mushroom identification, along with relevant code snippets or visualizations.]
+Logistic Regression
+Logistic Regression, a supervised machine learning algorithm, is well-suited for binary classification tasks. In mushroom identification, we apply Logistic Regression to predict whether a mushroom is poisonous or edible based on its features. By analyzing the relationship between the input features and the binary outcome (poisonous or edible), Logistic Regression provides insights into the likelihood of a mushroom being toxic.
 
-### Random Forest
-[INSERT MODULE INFORMATION: Explanation of Random Forest and its application in mushroom identification, along with relevant code snippets or visualizations]
+Support Vector Classifier (SVC)
+The Support Vector Classifier is a supervised learning algorithm used for classification tasks, particularly when the data is not linearly separable. In mushroom identification, we use SVC to classify mushrooms as toxic or edible based on their features. By finding the optimal hyperplane that best separates the classes, SVC helps us make accurate predictions regarding the toxicity of mushrooms.
 
-### Support Vector Machine (SVM)
+Random Forest
+Random Forest is an ensemble learning method that leverages multiple decision trees to make predictions. In mushroom identification, we employ Random Forest to classify mushrooms as toxic or edible by considering various features and generating predictions based on the consensus of the individual trees. This ensemble approach provides robust classification results for mushroom identification.
 
+In summary, KMeans helps us cluster mushrooms based on their characteristics, Logistic Regression and Support Vector Classifier are effective for binary classification of mushrooms, and Random Forest provides accurate classification through ensemble learning, contributing to the effective identification of mushrooms based on their attributes.
 
 ## Study Observations
 ### Understanding Mushroom Features
-- **Recognizing Mushroom Morphology:** Familiarize yourself with the different parts of a mushroom, such as the cap, stem, hymenium, and 
-  ```python
-  # Code snippet: # Get the feature importance array and list the top 20 most important features
+- **Recognizing Mushroom Features:** Familiarize ourselves with the different components of a mushroom, such as the odor, gill size, and population.
+  
+```python
+# Code snippet: Get the feature importance array and list the top 20 most important features
 feature_importances = rfc.feature_importances_
 
 importances_sorted = sorted(zip(feature_importances, X.columns), reverse=True)
-importances_sorted[:20]
-
-## Habitat and Seasonal Growth
-Understand the preferred habitats and seasonal growth patterns of different mushroom species. 
-![Map/chart showing mushroom habitats and seasons](INSERT VISUAL: Map/chart showing mushroom habitats and seasons)
-
-## Color and Shape
-Observe the color and shape of the cap, stem, and any color changes when the mushroom is bruised. 
-![Image gallery of mushroom colors and shapes](INSERT VISUAL: Image gallery of mushroom colors and shapes)
-
-## Key Differences Between Edible and Poisonous Mushrooms
-
-### Gill Structure and Spore Color
-Edible mushrooms often have pink to brown or black gills, while poisonous varieties may have white gills and spores. 
-![Comparison of gill structures and spore prints](INSERT VISUAL: Comparison of gill structures and spore prints)
-
-### Stem Characteristics and Odors
-Edible mushrooms typically have stout stems with rings or skirts, while toxic species might have a bulbous base or unpleasant odors. 
-![Illustrations of stem features](INSERT VISUAL: Illustrations of stem features)
-
-### Habitat Preferences and Groupings
-Note the preferred habitats and growth patterns of mushrooms, as some poisonous varieties thrive in specific conditions. 
-![Table or chart showing habitat preferences](INSERT VISUAL: Table or chart showing habitat preferences)
-
-## Common Edible Mushrooms
-
-### Morels
-Unique conical shape, honeycomb-like cap, and hollow from cap to stem. 
-![Images of morels](INSERT VISUAL: Images of morels)
-
-### Chanterelles
-Golden-yellow color, distinct fruity aroma, and forked ridges under the cap. 
-![Images of chanterelles](INSERT VISUAL: Images of chanterelles)
-
-### Oyster Mushrooms
-Oyster-shaped cap, decurrent gills, and shelf-like formations on logs or trees. 
-![Images of oyster mushrooms](INSERT VISUAL: Images of oyster mushrooms)
-
-## Essential Safety Tips
+print(importances_sorted[:20])  # Display the top 20 most important features
+```
 
 ### Seek Expert Confirmation
 Always consult reputable identification guides and consider joining group forays led by experts.
@@ -170,6 +142,7 @@ The code is located within Main within the Code folder.
 
 ## MIT License
 This project is licensed under the MIT License.
+
 The MIT License is a permissive free software license that is short and to the point. It allows users considerable freedom to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of the software. Here are the key points:
 
 **Permission to Use**: Users are free to use the software for any purpose.
