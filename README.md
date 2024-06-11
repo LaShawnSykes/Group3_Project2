@@ -16,13 +16,19 @@ Ingestion of wild and potentially toxic mushrooms is a prevalent issue in the Un
 This comprehensive study aims to equip mushroom enthusiasts with the essential knowledge and skills required for safe and effective identification of edible and poisonous mushrooms. By understanding the key differences between these two categories, foragers can confidently navigate the fascinating world of fungi while ensuring their well-being. Additionally, we leverage machine learning techniques to aid in the identification process.
 
 ## Table of Contents
-THIS SECTION NEEDS UPDATE
-- Understanding Mushroom Identification
-- Machine Learning Techniques
-- Key Differences Between Edible and Poisonous Mushrooms
-- Common Edible Mushrooms
-- Essential Safety Tips
-- Machine Learning Techniques
+## Table of Contents
+1. [Understanding Mushroom Identification](#understanding-mushroom-identification)
+2. [Machine Learning Techniques](#machine-learning-techniques)
+3. [Key Differences Between Edible and Poisonous Mushrooms](#key-differences-between-edible-and-poisonous-mushrooms)
+4. [Common Edible Mushrooms](#common-edible-mushrooms)
+5. [Essential Safety Tips](#essential-safety-tips)
+6. [Data Composition and Details](#data-composition-and-details)
+7. [Study Observations](#study-observations)
+8. [Future Recommendations](#future-recommendations)
+9. [Conclusion](#conclusion)
+10. [References](#references)
+11. [Code Availability](#code-availability)
+12. [MIT License](#mit-license)
 
 ## Data Composition and Details
 Our investigation aimed at identifying an appropriate dataset for the assignment led us to a CSV file derived from a study available in the University of California Irvine Machine Learning Repository. This dataset includes various features of mushrooms, facilitating the determination of their edibility status (edible or poisonous).
