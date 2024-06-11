@@ -66,44 +66,6 @@ importances_sorted = sorted(zip(feature_importances, X.columns), reverse=True)
 print(importances_sorted[:20])  # Display the top 20 most important features
 ```
 
-## Habitat and Seasonal Growth
-Understand the preferred habitats and seasonal growth patterns of different mushroom species. 
-![Map/chart showing mushroom habitats and seasons](INSERT VISUAL: Map/chart showing mushroom habitats and seasons)
-
-## Color and Shape
-Observe the color and shape of the cap, stem, and any color changes when the mushroom is bruised. 
-![Image gallery of mushroom colors and shapes](INSERT VISUAL: Image gallery of mushroom colors and shapes)
-
-## Key Differences Between Edible and Poisonous Mushrooms
-
-### Gill Structure and Spore Color
-Edible mushrooms often have pink to brown or black gills, while poisonous varieties may have white gills and spores. 
-![Comparison of gill structures and spore prints](INSERT VISUAL: Comparison of gill structures and spore prints)
-
-### Stem Characteristics and Odors
-Edible mushrooms typically have stout stems with rings or skirts, while toxic species might have a bulbous base or unpleasant odors. 
-![Illustrations of stem features](INSERT VISUAL: Illustrations of stem features)
-
-### Habitat Preferences and Groupings
-Note the preferred habitats and growth patterns of mushrooms, as some poisonous varieties thrive in specific conditions. 
-![Table or chart showing habitat preferences](INSERT VISUAL: Table or chart showing habitat preferences)
-
-## Common Edible Mushrooms
-
-### Morels
-Unique conical shape, honeycomb-like cap, and hollow from cap to stem. 
-![Images of morels](INSERT VISUAL: Images of morels)
-
-### Chanterelles
-Golden-yellow color, distinct fruity aroma, and forked ridges under the cap. 
-![Images of chanterelles](INSERT VISUAL: Images of chanterelles)
-
-### Oyster Mushrooms
-Oyster-shaped cap, decurrent gills, and shelf-like formations on logs or trees. 
-![Images of oyster mushrooms](INSERT VISUAL: Images of oyster mushrooms)
-
-## Essential Safety Tips
-
 ### Seek Expert Confirmation
 Always consult reputable identification guides and consider joining group forays led by experts.
 
@@ -174,6 +136,7 @@ The code is located within Main within the Code folder.
 
 ## MIT License
 This project is licensed under the MIT License.
+
 The MIT License is a permissive free software license that is short and to the point. It allows users considerable freedom to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of the software. Here are the key points:
 
 **Permission to Use**: Users are free to use the software for any purpose.
