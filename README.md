@@ -15,7 +15,6 @@ Ingestion of wild and potentially toxic mushrooms is a prevalent issue in the Un
 This comprehensive study aims to equip mushroom enthusiasts with the essential knowledge and skills required for safe and effective identification of edible and poisonous mushrooms. By understanding the key differences between these two categories, foragers can confidently navigate the fascinating world of fungi while ensuring their well-being. Additionally, we leverage machine learning techniques to aid in the identification process.
 
 ## Table of Contents
-## Table of Contents
 1. [Understanding Mushroom Identification](#understanding-mushroom-identification)
 2. [Machine Learning Techniques](#machine-learning-techniques)
 3. [Key Differences Between Edible and Poisonous Mushrooms](#key-differences-between-edible-and-poisonous-mushrooms)
@@ -45,16 +44,12 @@ Given the categorical nature of the variables in our dataset, we employed a one-
 ## Machine Learning Techniques
 When it comes to identifying mushrooms, we can used a variety of machine learning algorithms to classify them based on their features. Here's how KMeans, Logistic Regression, Support Vector Classifier, and Random Forest were applied in mushroom identification:
 
-KMeans
 We use KMeans, an unsupervised machine learning algorithm, to cluster mushrooms into groups based on their features. For example, we cluster mushrooms into categories such as edible and poisonous based on their characteristics. By identifying patterns within the data, KMeans helps us classify mushrooms into distinct groups.
 
-Logistic Regression
 Logistic Regression, a supervised machine learning algorithm, is well-suited for binary classification tasks. In mushroom identification, we apply Logistic Regression to predict whether a mushroom is poisonous or edible based on its features. By analyzing the relationship between the input features and the binary outcome (poisonous or edible), Logistic Regression provides insights into the likelihood of a mushroom being toxic.
 
-Support Vector Classifier (SVC)
 The Support Vector Classifier is a supervised learning algorithm used for classification tasks, particularly when the data is not linearly separable. In mushroom identification, we use SVC to classify mushrooms as toxic or edible based on their features. By finding the optimal hyperplane that best separates the classes, SVC helps us make accurate predictions regarding the toxicity of mushrooms.
 
-Random Forest
 Random Forest is an ensemble learning method that leverages multiple decision trees to make predictions. In mushroom identification, we employ Random Forest to classify mushrooms as toxic or edible by considering various features and generating predictions based on the consensus of the individual trees. This ensemble approach provides robust classification results for mushroom identification.
 
 In summary, KMeans helps us cluster mushrooms based on their characteristics, Logistic Regression and Support Vector Classifier are effective for binary classification of mushrooms, and Random Forest provides accurate classification through ensemble learning, contributing to the effective identification of mushrooms based on their attributes.
