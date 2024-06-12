@@ -1,6 +1,5 @@
 # Mushroom Foraging: Feast or Fatal?
-(Insert Visual)
-
+![Main Mushroom image](https://github.com/LaShawnSykes/LADS/blob/main/Mushroom%20Images/Mushroom.jpg)
 
 
 ## Project Team
